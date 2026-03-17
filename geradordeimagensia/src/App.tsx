@@ -73,18 +73,6 @@ export default function LuminaApp() {
 
             setImageUrl(data.uri);
 
-            //const encodedPrompt = encodeURIComponent(prompt);
-            //const seed = Math.floor(Math.random() * 1000000);
-            //const demoUrl = `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1024&height=1024&nologo=true&seed=${seed}`;
-            //await new Promise(r => setTimeout(r, 4000));
-            //const img = new Image();
-            //img.src = demoUrl;
-            //await new Promise((resolve, reject) => {
-            //    img.onload = resolve;
-            //    img.onerror = reject;
-            //});
-
-         /*   setImageUrl(demoUrl);*/
         } catch (err) {
             console.error(err);
             setError("Ops! Uma anomalia ocorreu na matriz. Tente novamente.");
