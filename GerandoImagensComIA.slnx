@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="GeradorDeImagensIA/geradordeimagensia.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="GerandoImagensComIA/GerandoImagensComIA.csproj" />
+</Solution>
